@@ -1,0 +1,20 @@
+{% extends 'mailing/includes/index.html' %}
+
+{% block content %}
+<h4 class="my-0 font-weight-normal mb-3">Сообщения</h4>
+{% for object in object_list %}
+        <div class="col-3">
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">{{ object.name_mail|title }}</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title pricing-card-title">{{ object.body_mail|title }}</h5>
+                </div>
+                <div class="card-footer">
+                    <a href="{% url 'view_mail' object.pk %}" class="btn btn-lg btn-block btn-outline-primary btn-sm">Информация</a>
+                </div>
+            </div>
+        </div>
+{% endfor %}
+{% endblock %}

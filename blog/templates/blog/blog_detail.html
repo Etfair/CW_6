@@ -1,0 +1,50 @@
+{% extends 'mailing/includes/index.html' %}
+{% load my_tags_blog %}
+{% block content %}
+    <div class="col-12">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            Информация
+                        </h3>
+                        {% if object.is_published == True %}
+                            <tr>Опубликовано</tr>
+                        {% else %}
+                            <tr>Не опубликовано</tr>
+                        {% endif %}
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td>Заголовок</td>
+                                <td>{{ object.title }}</td>
+                            </tr>
+                            <tr>
+                                <td>Содержимое</td>
+                                <td>{{ object.content }}</td>
+                            </tr>
+                            <tr>
+                                <td>Дата создания</td>
+                                <td>{{ object.date_of_creation }}</td>
+                            </tr>
+                            <tr class="card-footer">
+                                <td>Просмотры:</td>
+                                <td>{{ object.count_views }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                     <div class="btn-group">
+                         <a href="{% url 'blog:update' object.pk %}" class="btn btn-primary active" aria-current="page">Редактировать</a>
+                         <a href="{% url 'blog:delete' object.pk %}" class="btn btn-danger">Удалить</a>
+                     </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <img class="card-img-top" src="{{ object.preview|mediapath }}"
+                    alt=""/>
+            </div>
+        </div>
+    </div>
+{% endblock %}

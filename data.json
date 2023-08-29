@@ -1,0 +1,1564 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-08-16T11:08:55.133Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Manager",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-08-19T11:42:22.959Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Unfearble@yandex.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-08-19T11:43:08.571Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-08-19T11:53:44.323Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "6",
+      "object_repr": "�������� ������ None (client@test.ru) (�������� ���������).",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Mailing list\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-08-19T11:53:49.937Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "5",
+      "object_repr": "2 1 3 (testss@test.ru) (23434).",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Mailing list\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-08-19T11:53:54.080Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "������ ���� �������� (Ivan@test.ru) (���������).",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Mailing list\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-08-19T11:53:57.767Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "������ ���� �������� (Petr@test.ru) ().",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Mailing list\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-08-19T12:02:06.330Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Unfearble@yandex.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-08-23T08:55:49.702Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "new_user",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-08-23T08:57:17.704Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "3",
+      "object_repr": "�������-��������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-08-23T09:16:00.826Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "6",
+      "object_repr": "�������� ������ None (client@test.ru) (�������� ���������).",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-08-23T09:16:07.757Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "5",
+      "object_repr": "2 1 3 (testss@test.ru) (23434).",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-08-23T09:16:11.623Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "������ ���� �������� (Ivan@test.ru) (���������).",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-08-23T09:16:17.360Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "������ ���� �������� (Petr@test.ru) ().",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-08-23T09:40:01.816Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "���� ������� ������������",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-08-23T09:40:04.464Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "���� 1",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-08-23T10:03:12.105Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "�������� ���� �����",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-08-25T09:39:27.243Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "new_user",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-08-27T08:54:14.818Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-08-28T13:58:54.050Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-08-28T13:59:07.506Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-08-28T13:59:26.359Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-08-28T16:32:22.079Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "created",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-08-28T16:32:22.083Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "created",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-08-28T16:32:22.084Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "created",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-08-28T16:32:22.085Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "created",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-08-28T17:19:14.869Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "users.management.commands.runapscheduler.handle",
+      "object_repr": "users.management.commands.runapscheduler.handle (next run at: ���. 28, 2023, 5:21:50 �.�.)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Next run time\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-08-28T17:28:38.840Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "users.management.commands.runapscheduler.handle",
+      "object_repr": "users.management.commands.runapscheduler.handle (next run at: ���. 28, 2023, 5:29:33 �.�.)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Next run time\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-08-28T17:30:19.677Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "2 (next run at: ���. 28, 2023, 5:31:15 �.�.)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-08-28T17:32:29.035Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "2 (next run at: ���. 28, 2023, 5:31:15 �.�.)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add ������",
+      "content_type": 6,
+      "codename": "add_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change ������",
+      "content_type": 6,
+      "codename": "change_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete ������",
+      "content_type": 6,
+      "codename": "delete_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view ������",
+      "content_type": 6,
+      "codename": "view_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add mailing",
+      "content_type": 7,
+      "codename": "add_mailing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change mailing",
+      "content_type": 7,
+      "codename": "change_mailing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete mailing",
+      "content_type": 7,
+      "codename": "delete_mailing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view mailing",
+      "content_type": 7,
+      "codename": "view_mailing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add ������",
+      "content_type": 8,
+      "codename": "add_mail"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change ������",
+      "content_type": 8,
+      "codename": "change_mail"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete ������",
+      "content_type": 8,
+      "codename": "delete_mail"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view ������",
+      "content_type": 8,
+      "codename": "view_mail"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 9,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 9,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 9,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 9,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add ��������",
+      "content_type": 10,
+      "codename": "add_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change ��������",
+      "content_type": 10,
+      "codename": "change_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete ��������",
+      "content_type": 10,
+      "codename": "delete_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view ��������",
+      "content_type": 10,
+      "codename": "view_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add ���",
+      "content_type": 11,
+      "codename": "add_log"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change ���",
+      "content_type": 11,
+      "codename": "change_log"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete ���",
+      "content_type": 11,
+      "codename": "delete_log"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view ���",
+      "content_type": 11,
+      "codename": "view_log"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add django job",
+      "content_type": 12,
+      "codename": "add_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change django job",
+      "content_type": 12,
+      "codename": "change_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete django job",
+      "content_type": 12,
+      "codename": "delete_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view django job",
+      "content_type": 12,
+      "codename": "view_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add django job execution",
+      "content_type": 13,
+      "codename": "add_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change django job execution",
+      "content_type": 13,
+      "codename": "change_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete django job execution",
+      "content_type": 13,
+      "codename": "delete_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view django job execution",
+      "content_type": 13,
+      "codename": "view_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "manager",
+      "permissions": [
+        21,
+        24,
+        29,
+        32,
+        25,
+        28,
+        33,
+        36
+      ]
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+      "name": "new_user",
+      "permissions": [
+        40,
+        22,
+        24,
+        30,
+        32,
+        28,
+        33,
+        36
+      ]
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 3,
+    "fields": {
+      "name": "�������-��������",
+      "permissions": [
+        37,
+        38,
+        39,
+        40,
+        33,
+        34,
+        35,
+        36
+      ]
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "client",
+      "model": "client"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "mailing",
+      "model": "mailing"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "mailing",
+      "model": "mail"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "blog",
+      "model": "blog"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "mailing",
+      "model": "log"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "django_apscheduler",
+      "model": "djangojob"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "django_apscheduler",
+      "model": "djangojobexecution"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "trl3jgtea2v2ilkql69vsqfybacck0xz",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hAgMENduvcMZGCmUjU0Ke3KeHdt0oVu_3vvv1Siba1p67KkidVZWXX63TKVh7Qd8J3abdZlbusyZb0r-qBdX2eW5-Vw_w4q9fqtnQkjRCaLOUsAcOStG9AHAmBGDMEI2OCF0UQXRyiQB_AxIptYxKn3B8PwNv0:1qacoD:s2Dxrsz4qKrpEWAFlj9CcbQ4vA6txvPobZlsUkQ5wmo",
+      "expire_date": "2023-09-11T14:01:37.221Z"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojob",
+    "pk": "delete_old_job_executions",
+    "fields": {
+      "next_run_time": "2023-09-03T21:00:00Z",
+      "job_state": "gAWVWgQAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwZZGVsZXRlX29sZF9qb2JfZXhlY3V0aW9uc5SMBGZ1bmOUjEJ1c2Vycy5tYW5hZ2VtZW50LmNvbW1hbmRzLnJ1bmFwc2NoZWR1bGVyOmRlbGV0ZV9vbGRfam9iX2V4ZWN1dGlvbnOUjAd0cmlnZ2VylIwZYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3JvbpSMC0Nyb25UcmlnZ2VylJOUKYGUfZQoaAFLAowIdGltZXpvbmWUjAhidWlsdGluc5SMB2dldGF0dHKUk5SMCHpvbmVpbmZvlIwIWm9uZUluZm+Uk5SMCV91bnBpY2tsZZSGlFKUjA1FdXJvcGUvTW9zY293lEsBhpRSlIwKc3RhcnRfZGF0ZZROjAhlbmRfZGF0ZZROjAZmaWVsZHOUXZQojCBhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9uLmZpZWxkc5SMCUJhc2VGaWVsZJSTlCmBlH2UKIwEbmFtZZSMBHllYXKUjAppc19kZWZhdWx0lIiMC2V4cHJlc3Npb25zlF2UjCVhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9uLmV4cHJlc3Npb25zlIwNQWxsRXhwcmVzc2lvbpSTlCmBlH2UjARzdGVwlE5zYmF1YmgdjApNb250aEZpZWxklJOUKYGUfZQoaCKMBW1vbnRolGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHYwPRGF5T2ZNb250aEZpZWxklJOUKYGUfZQoaCKMA2RheZRoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB2MCVdlZWtGaWVsZJSTlCmBlH2UKGgijAR3ZWVrlGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHYwORGF5T2ZXZWVrRmllbGSUk5QpgZR9lChoIowLZGF5X29mX3dlZWuUaCSJaCVdlGgnjBZXZWVrZGF5UmFuZ2VFeHByZXNzaW9ulJOUKYGUfZQoaCxOjAVmaXJzdJRLAIwEbGFzdJRLAHViYXViaB8pgZR9lChoIowEaG91cpRoJIloJV2UaCeMD1JhbmdlRXhwcmVzc2lvbpSTlCmBlH2UKGgsTmhPSwBoUEsAdWJhdWJoHymBlH2UKGgijAZtaW51dGWUaCSJaCVdlGhWKYGUfZQoaCxOaE9LAGhQSwB1YmF1YmgfKYGUfZQoaCKMBnNlY29uZJRoJIhoJV2UaFYpgZR9lChoLE5oT0sAaFBLAHViYXViZYwGaml0dGVylE51YowIZXhlY3V0b3KUjAdkZWZhdWx0lIwEYXJnc5QpjAZrd2FyZ3OUfZRoImgDjBJtaXNmaXJlX2dyYWNlX3RpbWWUSwGMCGNvYWxlc2NllIiMDW1heF9pbnN0YW5jZXOUSwGMDW5leHRfcnVuX3RpbWWUjAhkYXRldGltZZSMCGRhdGV0aW1llJOUQwoH5wkEAAAAAAAAlGgYhpRSlHUu"
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojob",
+    "pk": "users.management.commands.runapscheduler.handle",
+    "fields": {
+      "next_run_time": "2023-08-28T22:00:00Z",
+      "job_state": "gAWVUAQAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwvdXNlcnMubWFuYWdlbWVudC5jb21tYW5kcy5ydW5hcHNjaGVkdWxlci5oYW5kbGWUjARmdW5jlIw3dXNlcnMubWFuYWdlbWVudC5jb21tYW5kcy5ydW5hcHNjaGVkdWxlcjpDb21tYW5kLmhhbmRsZZSMB3RyaWdnZXKUjBlhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9ulIwLQ3JvblRyaWdnZXKUk5QpgZR9lChoAUsCjAh0aW1lem9uZZSMCGJ1aWx0aW5zlIwHZ2V0YXR0cpSTlIwIem9uZWluZm+UjAhab25lSW5mb5STlIwJX3VucGlja2xllIaUUpSMDUV1cm9wZS9Nb3Njb3eUSwGGlFKUjApzdGFydF9kYXRllE6MCGVuZF9kYXRllE6MBmZpZWxkc5RdlCiMIGFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZmllbGRzlIwJQmFzZUZpZWxklJOUKYGUfZQojARuYW1llIwEeWVhcpSMCmlzX2RlZmF1bHSUiIwLZXhwcmVzc2lvbnOUXZSMJWFwc2NoZWR1bGVyLnRyaWdnZXJzLmNyb24uZXhwcmVzc2lvbnOUjA1BbGxFeHByZXNzaW9ulJOUKYGUfZSMBHN0ZXCUTnNiYXViaB2MCk1vbnRoRmllbGSUk5QpgZR9lChoIowFbW9udGiUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjA9EYXlPZk1vbnRoRmllbGSUk5QpgZR9lChoIowDZGF5lGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHYwJV2Vla0ZpZWxklJOUKYGUfZQoaCKMBHdlZWuUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjA5EYXlPZldlZWtGaWVsZJSTlCmBlH2UKGgijAtkYXlfb2Zfd2Vla5RoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB8pgZR9lChoIowEaG91cpRoJIloJV2UaCeMD1JhbmdlRXhwcmVzc2lvbpSTlCmBlH2UKGgsTowFZmlyc3SUSwGMBGxhc3SUSwF1YmF1YmgfKYGUfZQoaCKMBm1pbnV0ZZRoJIhoJV2UaFIpgZR9lChoLE5oVUsAaFZLAHViYXViaB8pgZR9lChoIowGc2Vjb25klGgkiGglXZRoUimBlH2UKGgsTmhVSwBoVksAdWJhdWJljAZqaXR0ZXKUTnVijAhleGVjdXRvcpSMB2RlZmF1bHSUjARhcmdzlCmMBmt3YXJnc5R9lGgijA5Db21tYW5kLmhhbmRsZZSMEm1pc2ZpcmVfZ3JhY2VfdGltZZRLAYwIY29hbGVzY2WUiIwNbWF4X2luc3RhbmNlc5RLAYwNbmV4dF9ydW5fdGltZZSMCGRhdGV0aW1llIwIZGF0ZXRpbWWUk5RDCgfnCB0BAAAAAACUaBiGlFKUdS4="
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 103,
+    "fields": {
+      "job": "delete_old_job_executions",
+      "status": "Missed!",
+      "run_time": "2023-08-27T21:00:00Z",
+      "duration": "71773.48",
+      "finished": "1693241773.48",
+      "exception": "Run time of job 'delete_old_job_executions' was missed!",
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 104,
+    "fields": {
+      "job": "users.management.commands.runapscheduler.handle",
+      "status": "Executed",
+      "run_time": "2023-08-28T17:14:48.172Z",
+      "duration": "1.86",
+      "finished": "1693242890.03",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 105,
+    "fields": {
+      "job": "users.management.commands.runapscheduler.handle",
+      "status": "Max instances!",
+      "run_time": "2023-08-28T17:14:49.172Z",
+      "duration": "0.00",
+      "finished": "1693242889.18",
+      "exception": "Execution of job 'users.management.commands.runapscheduler.handle' skipped: maximum number of running instances reached!",
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 106,
+    "fields": {
+      "job": "users.management.commands.runapscheduler.handle",
+      "status": "Executed",
+      "run_time": "2023-08-28T17:48:26.779Z",
+      "duration": "1.76",
+      "finished": "1693244908.54",
+      "exception": null,
+      "traceback": null
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojobexecution",
+    "pk": 107,
+    "fields": {
+      "job": "users.management.commands.runapscheduler.handle",
+      "status": "Max instances!",
+      "run_time": "2023-08-28T17:48:27.779Z",
+      "duration": "0.01",
+      "finished": "1693244907.79",
+      "exception": "Execution of job 'users.management.commands.runapscheduler.handle' skipped: maximum number of running instances reached!",
+      "traceback": null
+    }
+  },
+  {
+    "model": "client.client",
+    "pk": 1,
+    "fields": {
+      "first_name": "����",
+      "last_name": "������",
+      "patronymic": "��������",
+      "email": "Petr@test.ru",
+      "comment": "",
+      "user": 1,
+      "is_active": true
+    }
+  },
+  {
+    "model": "client.client",
+    "pk": 3,
+    "fields": {
+      "first_name": "����",
+      "last_name": "������",
+      "patronymic": "��������",
+      "email": "Ivan@test.ru",
+      "comment": "���������",
+      "user": 1,
+      "is_active": true
+    }
+  },
+  {
+    "model": "client.client",
+    "pk": 5,
+    "fields": {
+      "first_name": "1",
+      "last_name": "2",
+      "patronymic": "3",
+      "email": "testss@test.ru",
+      "comment": "23434",
+      "user": 2,
+      "is_active": true
+    }
+  },
+  {
+    "model": "client.client",
+    "pk": 6,
+    "fields": {
+      "first_name": "������",
+      "last_name": "��������",
+      "patronymic": null,
+      "email": "client@test.ru",
+      "comment": "�������� ���������",
+      "user": 2,
+      "is_active": true
+    }
+  },
+  {
+    "model": "client.client",
+    "pk": 7,
+    "fields": {
+      "first_name": "������",
+      "last_name": "����",
+      "patronymic": null,
+      "email": "and90dmb@mail.ru",
+      "comment": "��� �������� ���������",
+      "user": 2,
+      "is_active": true
+    }
+  },
+  {
+    "model": "mailing.mail",
+    "pk": 1,
+    "fields": {
+      "name_mail": "���� ������",
+      "body_mail": "�������� �����",
+      "owner": 1
+    }
+  },
+  {
+    "model": "mailing.mail",
+    "pk": 2,
+    "fields": {
+      "name_mail": "������ ���������",
+      "body_mail": "����������",
+      "owner": 1
+    }
+  },
+  {
+    "model": "mailing.mail",
+    "pk": 3,
+    "fields": {
+      "name_mail": "������ ���������",
+      "body_mail": "������������ ������� ���������",
+      "owner": 2
+    }
+  },
+  {
+    "model": "mailing.mail",
+    "pk": 4,
+    "fields": {
+      "name_mail": "4�� ���������",
+      "body_mail": "��������",
+      "owner": 1
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 5,
+    "fields": {
+      "mailing_datetime": "2023-08-28T20:00:00Z",
+      "period": "daily",
+      "mail_status": "created",
+      "message": 1,
+      "user": 2
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 6,
+    "fields": {
+      "mailing_datetime": "2023-08-28T20:00:00Z",
+      "period": "daily",
+      "mail_status": "created",
+      "message": 1,
+      "user": 2
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 7,
+    "fields": {
+      "mailing_datetime": "2023-08-28T20:10:00Z",
+      "period": "daily",
+      "mail_status": "created",
+      "message": 2,
+      "user": 1
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 1,
+    "fields": {
+      "date_attempt": "2023-08-28T17:14:48.068Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 2,
+    "fields": {
+      "date_attempt": "2023-08-28T17:14:48.535Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 3,
+    "fields": {
+      "date_attempt": "2023-08-28T17:14:48.936Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 4,
+    "fields": {
+      "date_attempt": "2023-08-28T17:14:48.959Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 5,
+    "fields": {
+      "date_attempt": "2023-08-28T17:14:49.495Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 6,
+    "fields": {
+      "date_attempt": "2023-08-28T17:14:50.026Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 7,
+    "fields": {
+      "date_attempt": "2023-08-28T17:48:26.567Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 8,
+    "fields": {
+      "date_attempt": "2023-08-28T17:48:27.221Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 9,
+    "fields": {
+      "date_attempt": "2023-08-28T17:48:27.402Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 10,
+    "fields": {
+      "date_attempt": "2023-08-28T17:48:27.797Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 11,
+    "fields": {
+      "date_attempt": "2023-08-28T17:48:27.960Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 12,
+    "fields": {
+      "date_attempt": "2023-08-28T17:48:28.537Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 13,
+    "fields": {
+      "date_attempt": "2023-08-28T17:49:36.979Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 14,
+    "fields": {
+      "date_attempt": "2023-08-28T17:49:37.459Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 15,
+    "fields": {
+      "date_attempt": "2023-08-28T17:49:37.897Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 16,
+    "fields": {
+      "date_attempt": "2023-08-28T17:50:25.244Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 17,
+    "fields": {
+      "date_attempt": "2023-08-28T17:50:25.651Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 18,
+    "fields": {
+      "date_attempt": "2023-08-28T17:50:26.104Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 19,
+    "fields": {
+      "date_attempt": "2023-08-28T17:54:33.448Z",
+      "status": "������",
+      "answer": "(554, b'5.7.1 Message rejected under suspicion of SPAM; https://ya.cc/1IrBc 1693245274-XsTdLx3WqmI0-BlFmmt6j')",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 20,
+    "fields": {
+      "date_attempt": "2023-08-28T17:54:33.999Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 21,
+    "fields": {
+      "date_attempt": "2023-08-28T17:54:34.468Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 22,
+    "fields": {
+      "date_attempt": "2023-08-28T17:55:29.731Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 23,
+    "fields": {
+      "date_attempt": "2023-08-28T17:55:30.152Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 24,
+    "fields": {
+      "date_attempt": "2023-08-28T17:55:30.634Z",
+      "status": "�������",
+      "answer": "200",
+      "mailing": null
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$XLaptnSeXEfj4tnzDX0hWl$3Hvlx4v+SCo5ac+DBFfdOZNPqzDAdYZWt9SSbKH7hvc=",
+      "last_login": "2023-08-28T14:01:37.219Z",
+      "is_superuser": true,
+      "first_name": "Admin",
+      "last_name": "",
+      "is_staff": true,
+      "date_joined": "2023-08-16T10:26:22.808Z",
+      "email": "and90dmb@mail.ru",
+      "is_active": true,
+      "rnd_key": 0,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$L7ZpkUWCaopB3Km1Da5tdm$idKhtQALUthUtJ/Y/OGdFM9AsQDVpt7aORvGUuRSpuY=",
+      "last_login": "2023-08-28T14:00:20.544Z",
+      "is_superuser": false,
+      "first_name": "������",
+      "last_name": "",
+      "is_staff": true,
+      "date_joined": "2023-08-19T11:34:07Z",
+      "email": "Unfearble@yandex.ru",
+      "is_active": true,
+      "rnd_key": 587103955,
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 1,
+    "fields": {
+      "title": "���� 1",
+      "content": "�������� ���� ����� ������� ���������� ������, ���� ���� ����",
+      "preview": "blog/pelmen.jpg",
+      "date_of_creation": "2023-08-17T00:00:00Z",
+      "count_views": 9,
+      "is_published": true
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 3,
+    "fields": {
+      "title": "���� ������� ������������",
+      "content": "������������ ��������� �������",
+      "preview": "",
+      "date_of_creation": "2023-08-19T00:00:00Z",
+      "count_views": 21,
+      "is_published": true
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 4,
+    "fields": {
+      "title": "������",
+      "content": "��������",
+      "preview": "",
+      "date_of_creation": "2023-08-23T00:00:00Z",
+      "count_views": 14,
+      "is_published": true
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 5,
+    "fields": {
+      "title": "�������� ���� �����",
+      "content": "�������� ���������� ���� �����",
+      "preview": "blog/prev_ava.jpg",
+      "date_of_creation": "2023-08-23T00:00:00Z",
+      "count_views": 7,
+      "is_published": true
+    }
+  }
+]

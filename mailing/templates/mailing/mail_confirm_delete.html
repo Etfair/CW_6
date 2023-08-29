@@ -1,0 +1,20 @@
+{% extends 'mailing/includes/index.html' %}
+
+{% block content %}
+    <div class="col-12">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body centered">
+                        <form method="post">
+                            {% csrf_token %}
+                            <p>Хотите удалить материал "{{ object.name_mail }}"?</p>
+                            <button type="submit" class="btn btn-success">Подтвердить</button>
+                            <a href="{% url 'mail' %}" class="btn btn-warning ">Отмена</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

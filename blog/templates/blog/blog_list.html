@@ -1,0 +1,32 @@
+{% extends 'mailing/includes/index.html' %}
+{% load my_tags_blog %}
+<h4 class="my-0 font-weight-normal mb-3">Материалы блога</h4>
+{% block content %}
+        {% for object in object_list %}
+            <div class="col-3">
+                <div class="card text-center mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">{{ object.title }}</h4>
+                        {% if object.is_published == True %}
+                            <tr>Опубликовано</tr>
+                        {% else %}
+                            <tr>Не опубликовано</tr>
+                        {% endif %}
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-text">{{ object.content|stringformat:".25s" }}</h3>
+                        <img class="card-img-top" src="{{ object.preview|mediapath }}"
+                        alt=""/>
+                        <ul class="list-unstyled mt-3 mb-4 text-start m-3">
+                        </ul>
+                        <div class="col-12 mb-5">
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-outline-primary btn-sm" href="{% url 'blog:view' object.pk %}">Просмотр</a>
+                            <p>Количество просмотров:{{ object.count_views }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+{% endblock %}

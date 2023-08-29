@@ -1,5 +1,10 @@
 Django
-django-crontab
 ipython
 Pillow
 psycopg2
+pytils
+python-dotenv
+redis
+pytz
+django-apscheduler
+apscheduler

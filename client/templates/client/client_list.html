@@ -1,0 +1,33 @@
+{% extends 'mailing/includes/index.html' %}
+
+{% block content %}
+
+<div class="col-12 mb-3">
+    <div class="card-header">
+            <h4 class="my-0 font-weight-normal mb-3">Список клиентов</h4>
+    </div>
+    {% if perms.client.view_client %}
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">ФИО Клиента</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Рассылка</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                {% for object in object_list %}
+                    <td>{{object.last_name }} {{ object.first_name }} {{ object.patronymic|default:" " }}</td>
+                    <td>{{ object.email }}</td>
+                    <td>{{ object.user|default:"Рассылка не выбрана" }}</td>
+
+                </tr>
+
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+</div>
+{% endblock %}
