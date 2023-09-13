@@ -26,7 +26,7 @@ class Command(BaseCommand):
         for new_mailing in mailings:
             clients = [client.email for client in Client.objects.filter(user=new_mailing.user)]
             print(2)
-            if new_mailing.mailing_datetime >= datetime.datetime.now(tz):
+            if new_mailing.mailing_datetime <= datetime.datetime.now(tz):
                 mail_subject = new_mailing.message.body_mail if new_mailing.message is not None else 'Тест 1'
                 message = new_mailing.message.name_mail if new_mailing.message is not None else 'Тест 2'
                 print(1)
@@ -37,7 +37,7 @@ class Command(BaseCommand):
                 except smtplib.SMTPException as err:
                     log = Log.objects.create(date_attempt=datetime.datetime.now(tz), status='Ошибка', answer=err)
                     log.save()
-                new_mailing.status = 'done'
+                new_mailing.mail_status = 'done'
                 new_mailing.save()
 
 
