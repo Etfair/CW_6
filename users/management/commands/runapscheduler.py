@@ -7,6 +7,8 @@ from django.core.mail import send_mail
 from django.core.management.base import BaseCommand
 from apscheduler.schedulers.background import BackgroundScheduler
 from django_apscheduler.jobstores import DjangoJobStore, register_job
+
+import mailing
 from client.models import Client
 from mailing.models import Mailing, Log
 

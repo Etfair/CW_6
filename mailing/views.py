@@ -116,6 +116,10 @@ class MailingCreateView(LoginRequiredMixin, PermissionRequiredMixin, CreateView)
     success_url = reverse_lazy('list')
 
     def form_valid(self, form):
+        self.object = form.save()
+        self.object.user = self.request.user
+        self.object.save()
+
         tz = pytz.timezone('Europe/Moscow')
         clients = [client.email for client in Client.objects.filter(user=self.request.user)]
         new_mailing = form.save()
@@ -136,7 +140,7 @@ class MailingCreateView(LoginRequiredMixin, PermissionRequiredMixin, CreateView)
             except Exception as err:
                 log = Log.objects.create(date_attempt=datetime.now(tz), status='Ошибка', answer=err, mailing=new_mailing)
                 log.save()
-            new_mailing.status = 'done'
+            new_mailing.mail_status = 'done'
             if new_mailing.user is None:
                 new_mailing.user = self.request.user
             new_mailing.save()

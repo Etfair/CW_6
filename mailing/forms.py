@@ -13,11 +13,11 @@ class StyleFormMixin:
 class MailForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Mail
-        fields = '__all__'
+        exclude = ('owner',)
 
 
 class MailingForms(forms.ModelForm):
 
     class Meta:
         model = Mailing
-        exclude = ('mail_status',)
+        exclude = ('mail_status', 'user',)

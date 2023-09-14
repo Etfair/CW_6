@@ -49,8 +49,9 @@ class Mailing(models.Model):
     period = models.CharField(max_length=20, choices=PERIODS, default=PERIOD_DAILY, verbose_name='Периодичность')
     mail_status = models.CharField(max_length=20, choices=STATUSES, default=STATUS_CREATED)
     message = models.ForeignKey('Mail', on_delete=models.SET_NULL, **NULLABLE, verbose_name='Рассылка')
-    user = models.ForeignKey(User, on_delete=models.CASCADE, **NULLABLE, verbose_name='Автор')
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, **NULLABLE, verbose_name='Автор')
     client = models.ManyToManyField(Client)
+
     def __str__(self):
         return f"{self.mail_status}"
 
