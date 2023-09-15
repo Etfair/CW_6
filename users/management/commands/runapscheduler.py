@@ -22,7 +22,8 @@ class Command(BaseCommand):
 
     @register_job(scheduler, "cron", hour=1, replace_existing=True)
     def handle(*args, **options):
-        mailings = Mailing.objects.filter(mail_status='created')
+        # mailings = Mailing.objects.filter(mail_status='created')
+        mailings = Mailing.objects.all()
         tz = pytz.timezone('Europe/Moscow')
         print(3)
         for new_mailing in mailings:
