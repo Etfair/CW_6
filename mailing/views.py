@@ -121,29 +121,31 @@ class MailingCreateView(LoginRequiredMixin, PermissionRequiredMixin, CreateView)
         self.object.save()
 
         tz = pytz.timezone('Europe/Moscow')
-        clients = [client.email for client in Client.objects.filter(user=self.request.user)]
         new_mailing = form.save()
+        for mailing in Mailing.objects.filter(mail_status='created'):
+            for client in mailing.client.all():
+                log = Log.objects.filter(client=client.pk, mailing=mailing.pk)
 
-        if new_mailing.mailing_datetime <= datetime.now(tz):
-            mail_subject = new_mailing.message.body_mail if new_mailing.message is not None else 'Рассылка'
-            message = new_mailing.message.name_mail if new_mailing.message is not None else 'Рассылка'
-            try:
-                send_mail(mail_subject, message, settings.EMAIL_HOST_USER, clients)
-                log = Log.objects.create(date_attempt=datetime.now(tz), status='Успешно', answer='200', mailing=new_mailing)
-                log.save()
-            except smtplib.SMTPDataError as err:
-                log = Log.objects.create(date_attempt=datetime.now(tz), status='Ошибка', answer=err, mailing=new_mailing)
-                log.save()
-            except smtplib.SMTPException as err:
-                log = Log.objects.create(date_attempt=datetime.now(tz), status='Ошибка', answer=err, mailing=new_mailing)
-                log.save()
-            except Exception as err:
-                log = Log.objects.create(date_attempt=datetime.now(tz), status='Ошибка', answer=err, mailing=new_mailing)
-                log.save()
-            new_mailing.mail_status = 'done'
-            if new_mailing.user is None:
-                new_mailing.user = self.request.user
-            new_mailing.save()
+                if new_mailing.mailing_datetime <= datetime.now(tz):
+                    mail_subject = new_mailing.message.body_mail if new_mailing.message is not None else 'Рассылка'
+                    message = new_mailing.message.name_mail if new_mailing.message is not None else 'Рассылка'
+                    try:
+                        send_mail(mail_subject, message, settings.EMAIL_HOST_USER, [client.email])
+                        log = Log.objects.create(date_attempt=datetime.now(tz), status='Успешно', answer='200', mailing=new_mailing)
+                        log.save()
+                    except smtplib.SMTPDataError as err:
+                        log = Log.objects.create(date_attempt=datetime.now(tz), status='Ошибка', answer=err, mailing=new_mailing)
+                        log.save()
+                    except smtplib.SMTPException as err:
+                        log = Log.objects.create(date_attempt=datetime.now(tz), status='Ошибка', answer=err, mailing=new_mailing)
+                        log.save()
+                    except Exception as err:
+                        log = Log.objects.create(date_attempt=datetime.now(tz), status='Ошибка', answer=err, mailing=new_mailing)
+                        log.save()
+                    new_mailing.mail_status = 'done'
+                    if new_mailing.user is None:
+                        new_mailing.user = self.request.user
+                    new_mailing.save()
 
         return super().form_valid(form)
 

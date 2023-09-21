@@ -15,8 +15,8 @@ class Command(BaseCommand):
 
     def handle(*args, **options):
         tz = pytz.timezone('Europe/Moscow')
-        for mailing in Mailing.objects.all():
-        # for mailing in Mailing.objects.filter(mail_status='created'):
+        # for mailing in Mailing.objects.all():
+        for mailing in Mailing.objects.filter(mail_status='created'):
             print(3)
             for client in mailing.client.all():
                 log = Log.objects.filter(client=client.pk, mailing=mailing.pk)
